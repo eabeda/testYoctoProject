@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 #Check that build-essential is installed
 check=`dpkg -s chrpath 2>&1 | grep "is not installed"`
