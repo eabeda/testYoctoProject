@@ -8,3 +8,14 @@ git push -u origin master
 
 #Basic build
 http://wavy00.blogspot.fr/2016/09/yocto-quick-start-bitbake-hello-world.html
+
+#Notice
+If you are using encrypted home directories, which unfortunately uses a broken file system that can't handle long file names.
+ERROR:
+OE-core's config sanity checker detected a potential misconfiguration.
+Either fix the cause of this error or at your own risk disable the checker (see sanity.conf).
+Following is the list of potential problems / advisories:
+Failed to create a file with a long name in TMPDIR. Please use a filesystem that does not unreasonably limit filename length.
+Failed to create a file with a long name in SSTATE_DIR. Please use a filesystem that does not unreasonably limit filename length.
+
+
