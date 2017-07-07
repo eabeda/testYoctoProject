@@ -17,6 +17,7 @@ if [ -n "$check" ]; then
     sudo apt install texinfo
 fi
 
+export PATH=~/git/testYoctoProject/poky/bitbake/bin:$PATH
 cd poky/
 ls meta*/recipes*/images/*.bb
 source oe-init-build-env
