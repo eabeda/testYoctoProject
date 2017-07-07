@@ -5,3 +5,6 @@ git add *
 git commit -m "first commit"
 git remote add origin https://github.com/eabeda/testYoctoProject.git
 git push -u origin master
+
+#Basic build
+http://wavy00.blogspot.fr/2016/09/yocto-quick-start-bitbake-hello-world.html

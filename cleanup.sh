@@ -1,4 +1,4 @@
 #! /bin/sh
 
 #Clean
-rm -vrf testYoctoProject/
+rm -vrf poky/
