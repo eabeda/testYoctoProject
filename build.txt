@@ -1,0 +1,51 @@
+$ ./build.sh 
+meta/recipes-core/images/build-appliance-image_15.0.0.bb	 meta/recipes-graphics/images/core-image-clutter.bb
+meta/recipes-core/images/core-image-base.bb			 meta/recipes-graphics/images/core-image-weston.bb
+meta/recipes-core/images/core-image-minimal.bb			 meta/recipes-graphics/images/core-image-x11.bb
+meta/recipes-core/images/core-image-minimal-dev.bb		 meta/recipes-rt/images/core-image-rt.bb
+meta/recipes-core/images/core-image-minimal-initramfs.bb	 meta/recipes-rt/images/core-image-rt-sdk.bb
+meta/recipes-core/images/core-image-minimal-mtdutils.bb		 meta/recipes-sato/images/core-image-sato.bb
+meta/recipes-core/images/core-image-tiny-initramfs.bb		 meta/recipes-sato/images/core-image-sato-dev.bb
+meta/recipes-extended/images/core-image-full-cmdline.bb		 meta/recipes-sato/images/core-image-sato-sdk.bb
+meta/recipes-extended/images/core-image-kernel-dev.bb		 meta/recipes-sato/images/core-image-sato-sdk-ptest.bb
+meta/recipes-extended/images/core-image-lsb.bb			 meta-selftest/recipes-test/images/error-image.bb
+meta/recipes-extended/images/core-image-lsb-dev.bb		 meta-selftest/recipes-test/images/oe-selftest-image.bb
+meta/recipes-extended/images/core-image-lsb-sdk.bb		 meta-selftest/recipes-test/images/test-empty-image.bb
+meta/recipes-extended/images/core-image-testmaster.bb		 meta-selftest/recipes-test/images/wic-image-minimal.bb
+meta/recipes-extended/images/core-image-testmaster-initramfs.bb  meta-skeleton/recipes-multilib/images/core-image-multilib-example.bb
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-sato
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+./build.sh: line 31: cd: build/: No such file or directory
+Loading cache: 100% |####################################################################################################################################| Time: 0:00:00
+Loaded 1299 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION        = "1.34.0"
+BUILD_SYS         = "x86_64-linux"
+NATIVELSBSTRING   = "universal"
+TARGET_SYS        = "i586-poky-linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "2.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-poky         
+meta-yocto-bsp    = "pyro:7c27bf2dd85ee77d643d975add4256e957652a5c"
+
+Initialising tasks: 100% |###############################################################################################################################| Time: 0:00:06
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 2398 tasks of which 1309 didn't need to be rerun and all succeeded.
+
