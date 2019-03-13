@@ -1,17 +1,17 @@
 $ ./build.sh 
-meta/recipes-core/images/build-appliance-image_15.0.0.bb	 meta/recipes-graphics/images/core-image-clutter.bb
-meta/recipes-core/images/core-image-base.bb			 meta/recipes-graphics/images/core-image-weston.bb
-meta/recipes-core/images/core-image-minimal.bb			 meta/recipes-graphics/images/core-image-x11.bb
-meta/recipes-core/images/core-image-minimal-dev.bb		 meta/recipes-rt/images/core-image-rt.bb
-meta/recipes-core/images/core-image-minimal-initramfs.bb	 meta/recipes-rt/images/core-image-rt-sdk.bb
-meta/recipes-core/images/core-image-minimal-mtdutils.bb		 meta/recipes-sato/images/core-image-sato.bb
-meta/recipes-core/images/core-image-tiny-initramfs.bb		 meta/recipes-sato/images/core-image-sato-dev.bb
-meta/recipes-extended/images/core-image-full-cmdline.bb		 meta/recipes-sato/images/core-image-sato-sdk.bb
-meta/recipes-extended/images/core-image-kernel-dev.bb		 meta/recipes-sato/images/core-image-sato-sdk-ptest.bb
-meta/recipes-extended/images/core-image-lsb.bb			 meta-selftest/recipes-test/images/error-image.bb
-meta/recipes-extended/images/core-image-lsb-dev.bb		 meta-selftest/recipes-test/images/oe-selftest-image.bb
-meta/recipes-extended/images/core-image-lsb-sdk.bb		 meta-selftest/recipes-test/images/test-empty-image.bb
-meta/recipes-extended/images/core-image-testmaster.bb		 meta-selftest/recipes-test/images/wic-image-minimal.bb
+meta/recipes-core/images/build-appliance-image_15.0.0.bb         meta/recipes-graphics/images/core-image-clutter.bb
+meta/recipes-core/images/core-image-base.bb                      meta/recipes-graphics/images/core-image-weston.bb
+meta/recipes-core/images/core-image-minimal.bb                   meta/recipes-graphics/images/core-image-x11.bb
+meta/recipes-core/images/core-image-minimal-dev.bb               meta/recipes-rt/images/core-image-rt.bb
+meta/recipes-core/images/core-image-minimal-initramfs.bb         meta/recipes-rt/images/core-image-rt-sdk.bb
+meta/recipes-core/images/core-image-minimal-mtdutils.bb          meta/recipes-sato/images/core-image-sato.bb
+meta/recipes-core/images/core-image-tiny-initramfs.bb            meta/recipes-sato/images/core-image-sato-dev.bb
+meta/recipes-extended/images/core-image-full-cmdline.bb          meta/recipes-sato/images/core-image-sato-sdk.bb
+meta/recipes-extended/images/core-image-kernel-dev.bb            meta/recipes-sato/images/core-image-sato-sdk-ptest.bb
+meta/recipes-extended/images/core-image-lsb.bb                   meta-selftest/recipes-test/images/error-image.bb
+meta/recipes-extended/images/core-image-lsb-dev.bb               meta-selftest/recipes-test/images/oe-selftest-image.bb
+meta/recipes-extended/images/core-image-lsb-sdk.bb               meta-selftest/recipes-test/images/test-empty-image.bb
+meta/recipes-extended/images/core-image-testmaster.bb            meta-selftest/recipes-test/images/wic-image-minimal.bb
 meta/recipes-extended/images/core-image-testmaster-initramfs.bb  meta-skeleton/recipes-multilib/images/core-image-multilib-example.bb
 
 ### Shell environment set up for builds. ###
